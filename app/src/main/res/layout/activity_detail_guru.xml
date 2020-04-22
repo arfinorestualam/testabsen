@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".detailactivity.guru.DetailGuru">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="127dp"
+        android:src="@drawable/ic_clock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnSiswa"
+        android:layout_width="339dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_white_primary"
+        android:text="Lihat Siswa"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+    <Button
+        android:id="@+id/btnOrtu"
+        android:layout_width="339dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_white_primary"
+        android:text="Lihat Wali Murid"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSiswa"
+        app:layout_constraintVertical_bias="0.053" />
+    <Button
+        android:id="@+id/btnGuru"
+        android:layout_width="339dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_white_primary"
+        android:text="Perbaharui akun"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOrtu"
+        app:layout_constraintVertical_bias="0.053" />
+</androidx.constraintlayout.widget.ConstraintLayout>
